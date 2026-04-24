@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+<title>KAOPY HOME UPGRADES - Contact</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+<div class="container nav">
+<div class="logo">
+<img src="images/logo.png">
+<h2>KAOPY HOME UPGRADES</h2>
+</div>
+
+<button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+<nav class="nav-links" id="mobileMenu">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
+
+<section class="page-banner contact-bg">
+    <h1>Contact Us</h1>
+    <p>
+      Reach out for curtains, blinds, and interior decoration.
+    </p>
+  </section>
+ 
+ <section class="contact container">
+<p>
+  <strong>Tel:</strong> 08160690157
+</p>
+<p>
+  <strong>Email:</strong> omoyenik633@gmail.com
+</p>
+</section>
+
+<section class="container">
+<h2>Enquiry</h2>
+
+<form onsubmit="sendWhatsApp(event)">
+<input type="text" id="name" placeholder="Name" required>
+<input type="text" id="phone" placeholder="Phone" required>
+<textarea id="message" placeholder="Message"></textarea>
+
+<button type="submit">Send WhatsApp</button>
+</form>
+</section>
+
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img">
+</div>
+
+<a href="https://wa.me/2348160690157" target="_blank" class="whatsapp-float">
+  💬
+</a>
+
+<footer>
+<p>KAOPY HOME UPGRADES © 2026</p>
+<p>Produced by DAYOTECH</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
